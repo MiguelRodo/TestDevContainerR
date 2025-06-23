@@ -5,10 +5,12 @@
     "codespaces": {
       "repositories": {
         "MiguelRodo/r-workflow": {
-          "actions": "write",
-          "contents": "write",
-          "packages": "read",
-          "workflows": "write"
+          "permissions": {
+            "contents": "write",
+            "actions": "write",
+            "packages": "read",
+            "workflows": "write"
+          }
         },
         "MiguelRodo/dotfiles": {
           "permissions": "write-all"
