@@ -1,14 +1,14 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {},
   "customizations": {
     "codespaces": {
       "repositories": {
         "MiguelRodo/r-workflow": {
-          "actions": "write",
-          "contents": "write",
-          "packages": "read",
-          "workflows": "write"
+          "permissions": "write-all"
+        },
+        "MiguelRodo/dotfiles": {
+          "permissions": "write-all"
         }
       }
     }
